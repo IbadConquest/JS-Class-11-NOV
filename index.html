@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 NOV JS</title>
+</head>
+<body>
+    <h1> JS OBJECT CODE </h1>
+
+
+
+
+    <script>
+
+        // Object
+
+        Usman = {
+
+            name : "Usman",
+            Address : "PECHS",
+            phone : "098765422234",
+            fathername : "Ibad"
+        }
+
+         Hammad = {
+
+            name : "Hammad",
+            Address : "PECHS",
+            phone : "0923898978362",
+            fathername : "Fahad"
+        }
+
+        Osama = {
+
+            name : "Osama",
+            Address : "PECHS",
+            phone : ["378298278190","09812837682"],     //nested array//
+            fathername : "Ali"
+        }
+
+        console.log(Osama.Address , Osama.phone[1])
+
+            //Array of object
+
+        Classone = [{
+
+            id:1,
+            name : "Hammad",
+            Address : "PECHS",
+            phone : "0923898978362",
+            fathername : "Fahad"
+        }
+        ,
+         {
+            id:2,
+            name : "Osama",
+            Address : "PECHS",
+            phone : ["378298278190","09812837682"],     
+            fathername : "Ali"
+        }]
+
+
+        console.log(Classone[1].phone[1])
+
+    </script>
+</body>
+</html>
